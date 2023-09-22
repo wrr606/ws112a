@@ -37,7 +37,7 @@ router
   })
   .get("/nqu/csie/:id", (context) => {
     if (context.params && context.params.id && room.has(context.params.id)) {
-      context.response.body = Array.from(room.get(context.params.id));
+      context.response.body = room.get(context.params.id);
     }
   })
   .get("/to/nqu", (context) => {
