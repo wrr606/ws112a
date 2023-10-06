@@ -1,0 +1,22 @@
+/* 列表樣式 */
+ol {
+    list-style-type: decimal; /* 使用數字作為有序列表符號 */
+    padding-left: 20px; /* 添加左側內邊距，使文本不要太靠近符號 */
+}
+
+/* 鏈接樣式 */
+ol li a {
+    text-decoration: none; /* 去除下劃線 */
+    color: #007bff; /* 鏈接文字顏色 */
+    background-color: #f4f4f4; /* 鏈接背景色 */
+    padding: 5px 10px; /* 上下5px，左右10px的內邊距 */
+    border-radius: 5px; /* 圓角邊框 */
+    display: inline-block; /* 讓連結呈現為區塊元素 */
+    margin: 5px; /* 添加外邊距，增加連結之間的間距 */
+}
+
+/* 鼠標懸停時的效果 */
+ol li a:hover {
+    background-color: #007bff; /* 鼠標懸停時更改背景色 */
+    color: #fff; /* 鼠標懸停時更改文字顏色 */
+}
