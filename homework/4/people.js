@@ -1,5 +1,5 @@
 import { Application, Router, send } from "https://deno.land/x/oak/mod.ts";
- 
+
 const peoples = new Map();
 peoples.set("john", {
   name: "john",
